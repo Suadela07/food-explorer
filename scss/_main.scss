@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    padding-top: 17px;
+}
+
+.col-01 {
+    flex: 3 1 75%;
+}
+
+.col-01 img {
+    width: 100%;
+}
+
+.col-02 {
+    flex: 1 1 25%;
+}
+
+ul.older01 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 190px;
+}
+
+.older {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 187px;
+    height: 21px;
+    text-indent: 100%;
+    margin-top: 20px;
+}
+
+.older-post {
+    background-image: url("../images/previous_btn.png");
+    background-position: 1px -42px;
+}
+
+.older-post:hover {
+    background-position: 1px -21px;
+}

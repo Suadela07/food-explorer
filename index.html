@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Food Explorer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="inner-wrapper">
+        <div class="logo">
+            <picture>
+                <source srcset="images/small_logo.jpg" media="(max-width: 420px)">
+                <img srcset="images/logo.png" alt="FoodExplorer Logo">
+            </picture>
+        </div>
+        
+        <div class="search02" data-set="search-move"></div>
+        
+        <div class="social-media" data-set="social-move">
+            <ul class="social-links">
+                <li><a href="#" class="social facebook">Facebook</a></li>
+                <li><a href="#" class="social google">Google +</a></li>
+                <li><a ahef="#" class="social twitter">Twitter</a></li>
+            </ul>
+        </div>
+        
+           <button class="btn-mobile-menu">Menu</button>      
+    </div> 
+</header>
+ 
+<div class="nav-bar">
+    <div class="inner-wrapper">
+        
+        <nav>
+            <ul>
+                <li class="search03" data-set="search-move"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="social-media-nav-bar" data-set="social-move"></li>
+            </ul>
+        </nav>
+        
+        <div class="search" data-set="search-move">
+            <div class="search-move-container">
+                <input type="text" placeholder="Search">
+            </div><!-- end search-move-container -->
+        </div>
+        
+    </div>
+</div>
+    
+<main class="inner-wrapper"> 
+    
+<div class="col-01">
+    
+    <article class="main-images">
+        
+        <div class="mussel-img">
+            <picture>
+                <source srcset="images/mussel_small.jpg" media="(max-width: 560px)">
+                <source srcset="images/mussel.jpg">
+                <img srcset="images/mussel.jpg" alt="Mussels">
+            </picture>
+            <p>SED AUCTOR DAPIBUS IPSUM</p>
+        </div>
+        
+        <div class="salad-img">
+            <img src="images/salad.jpg" alt="Salad">
+            <p>ETIAM NULLA DUI</p>
+        </div>
+        
+        <div class="pancake-img">
+            <img src="images/pancake.jpg" alt="Pancakes">
+            <p>NUNC POSUERE ORCI</p>
+        </div>
+
+    </article>
+    
+    <article class="pasta-window">
+
+        <h1>VESTIBULUM ANTE IPSUM PRIMIS</h1>
+        <p>Posted by Mike Lee on Sunday, August 25, 2013</p>
+        <img src="images/pasta.jpg" alt="Pasta">
+        <p>Sed justo dui, accumsan consequat pulvinar eu, placerat sit amet dolor. Integer ultricies, ipsum et luctus commodo, ante arcu viverra massa, lobortis imperdiet risus lacus vel eros...</p>
+    
+        <button class="btn" type="submit">READ MORE...</button>
+
+    </article>
+    
+    <article class="ramen-window">
+
+        <h1>DONEC EGET PORTA NULLA</h1>
+        <p>Posted by Mike Lee on Monday, July 29, 2013</p>
+        <img src="images/ramen.jpg" alt="Ramen">
+        <p>Duis sagittis ante purus, ac malesuada erat ornare non. Sed sit amet nisl elit. Fusce molestie quam nisl, quis blandit nisi pellentesque sed. Quisque et ante purus. Integer et nunc eget eros tempor condimentum ac non risus...</p>
+    
+        <button class="btn" type="submit">READ MORE...</button>
+
+    </article>
+    
+    <div>
+        <ul class="older01">
+            <li><a href="#" class="older older-post">Older posts</a></li>
+        </ul>
+     </div>
+    
+</div>
+    
+<div class="col-02">
+    <aside class="recipe-window">
+
+        <h2>LATEST RECIPES</h2>
+        <div>
+            <img src="images/lamb_tb.jpg" alt="Lamb">
+            <p>CURABITUR ORNARE MI ID</p>
+        </div>
+        <div>
+            <img src="images/breakfast_tb.jpg" alt="Breakfast">
+            <p>NULLA DICTUM URNA TEMPUS</p>
+        </div>
+        <div>
+            <img src="images/calamari_tb.jpg" alt="Calamari">
+            <p>NUNC METUS PORTA</p>
+        </div>
+        <div>
+            <img src="images/steak_tb.jpg" alt="Steak">
+            <p>CURABITUR QUAM SAPIEN</p>
+        </div>
+    </aside>
+
+    <aside class="cuisines-window">
+
+        <h2>CUISINES</h2>
+        <h3>AMERICAN (95)</h3>
+        <h3>ASIAN (33)</h3>
+        <h3>CAMBODIAN (3)</h3>
+        <h3>CHINESE (281)</h3>
+        <h3>FILIPINO (8)</h3>
+        <h3>FRENCH (40)</h3>
+        <h3>GERMAN (7)</h3>
+        <h3>GREEK (29)</h3>
+        <h3>INDIAN (44)</h3>
+        <h3>ITALIAN (60)</h3>
+        <h3>JAMAICAN (7)</h3>
+        <h3>JAPANESE (202)</h3>
+        <h3>KOREAN (120)</h3>
+        <h3>MALAYSIAN (12)</h3>
+        <h3>MEDITERRANEAN (9)</h3>
+        <h3>MEXICAN (25)</h3>
+        <h3>SOUTHERN (14)</h3>
+
+    </aside>
+    
+</div>
+
+</main>
+    
+<footer>
+    <div>
+        <p>&copy Site designed by Michael Lee. For educational purpose only. Image Credits</p>
+    </div>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="scripts/appendAround.js"></script>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'roboto-reg';
+	src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-light';
+    src: url('../fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('../fonts/RobotoCondensed-Bold.ttf');
+}
+
+h1 {
+    color: $light-blue;
+    font-family: "roboto-reg";
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    font-family: "roboto-reg";
+    font-size: 20px;
+    padding: 5px;
+    background-color:  $dark-blue;
+}
+
+h3 {
+    color: black;
+    font-family: "roboto-reg";
+    font-size: 17px;
+}
+
+nav a {
+    font-family: "roboto-bold";
+    font-size: 15px;
+    color: white;
+}

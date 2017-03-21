@@ -1,0 +1,44 @@
+.main-images {
+    max-width: 704px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-images img {
+    display: block;
+}
+
+.main-images p {
+    background-color: rgba(000, 000, 000, 0.7);
+    height: 45px;
+    color: white;
+    font-size: 30px;
+    padding-top: 7px;
+    padding-left: 7px;
+    font-family: "roboto-reg";
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.mussel-img {
+    position: relative;
+    margin-bottom: 4px;
+    flex: 1 1 100%;
+}
+
+.salad-img {
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: 2px;
+    width: calc(50% - 2px);
+}
+
+.pancake-img {
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: 2px;
+    width: calc(50% - 2px);
+}
